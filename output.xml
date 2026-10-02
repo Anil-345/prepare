@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-08-26T13:22:12.985935" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Users\Hp\OneDrive\Desktop\prepare\test.robot">
+<test id="s1-t1" name="test case" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:13.361078" level="INFO">Opening browser 'Chrome' to base url 'https://wbscc.wb.gov.in/Applicant_Registration'.</msg>
+<arg>https://wbscc.wb.gov.in/Applicant_Registration</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-08-26T13:22:13.360680" elapsed="3.033662"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-08-26T13:22:16.395925" elapsed="0.122009"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:18.522730" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:16.520347" elapsed="2.002676"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:18.524958" level="INFO">Typing text 'Anil' into text field 'first_name'.</msg>
+<arg>first_name</arg>
+<arg>Anil</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-08-26T13:22:18.523964" elapsed="0.270862"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:19.798687" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:18.796230" elapsed="1.002857"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:19.801672" level="INFO">Typing text 'kumar' into text field 'middle_name'.</msg>
+<arg>middle_name</arg>
+<arg>kumar</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-08-26T13:22:19.800818" elapsed="0.185633"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:20.988738" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:19.987364" elapsed="1.001672"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:20.990585" level="INFO">Typing text 'gorla' into text field 'last_name'.</msg>
+<arg>last_name</arg>
+<arg>gorla</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-08-26T13:22:20.989939" elapsed="0.186038"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:22.178469" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:21.177096" elapsed="1.001757"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:22.181543" level="INFO">Selecting options from selection list 'sex' by value MQ==.</msg>
+<arg>sex</arg>
+<arg>MQ==</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-08-26T13:22:22.180754" elapsed="0.182181"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:23.365457" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:22.363828" elapsed="1.001965"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:23.367396" level="INFO">Typing text '123456789123' into text field 'aadhaar_no'.</msg>
+<arg>aadhaar_no</arg>
+<arg>123456789123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-08-26T13:22:23.366713" elapsed="0.244843"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:24.613761" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:23.612600" elapsed="1.001411"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:24.616138" level="INFO">Selecting options from selection list 'programme_id' by value Mg==.</msg>
+<arg>programme_id</arg>
+<arg>Mg==</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-08-26T13:22:24.615279" elapsed="0.134090"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:25.751894" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:24.750191" elapsed="1.002019"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:25.753983" level="INFO">Clicking element 'select2-course_id-container'.</msg>
+<arg>select2-course_id-container</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-08-26T13:22:25.753395" elapsed="0.123718"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:26.881709" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:25.878739" elapsed="1.003251"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:26.883636" level="INFO">Clicking element '//span[@id="select2-course_id-container"]'.</msg>
+<arg>//span[@id="select2-course_id-container"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-08-26T13:22:26.883100" elapsed="0.128294"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:28.014618" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:27.012096" elapsed="1.002789"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:28.016385" level="INFO">Selecting options from selection list 'inst_state_id' by value Mg==.</msg>
+<arg>inst_state_id</arg>
+<arg>Mg==</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-08-26T13:22:28.015701" elapsed="0.144960"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:29.164573" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:28.161566" elapsed="1.003275"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:29.166340" level="INFO">Selecting options from selection list 'inst_dist_id' by value MTY=.</msg>
+<arg>inst_dist_id</arg>
+<arg>MTY=</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-08-26T13:22:29.165604" elapsed="0.133406"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-26T13:22:30.300904" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-26T13:22:29.299653" elapsed="1.001566"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-08-26T13:22:30.419437" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-08-26T13:22:30.419892" level="FAIL">ValueError: No values given.</msg>
+<arg>select2-inst_id-result-w4nw-MTM0Nzc=</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="FAIL" start="2026-08-26T13:22:30.301894" elapsed="0.122501">ValueError: No values given.</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.425603" elapsed="0.000148"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>mob_no</arg>
+<arg>9876543221</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.427242" elapsed="0.000127"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.428021" elapsed="0.000156"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>email_id</arg>
+<arg>anil@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.428901" elapsed="0.000217"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.430150" elapsed="0.000246"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>re_email_id</arg>
+<arg>anil@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.431435" elapsed="0.000227"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.432429" elapsed="0.000121"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<arg>pass</arg>
+<arg>anil123</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.433139" elapsed="0.000094"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.433818" elapsed="0.000147"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<arg>confirm_pass</arg>
+<arg>anil123</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.434642" elapsed="0.000078"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-08-26T13:22:30.435287" elapsed="0.000139"/>
+</kw>
+<status status="FAIL" start="2026-08-26T13:22:13.358560" elapsed="17.077883">ValueError: No values given.</status>
+</test>
+<status status="FAIL" start="2026-08-26T13:22:12.988865" elapsed="17.451119"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="0" fail="1" skip="0">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
